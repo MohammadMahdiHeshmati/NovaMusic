@@ -28,9 +28,11 @@ function MainTop() {
                     <div className='p-2 py-4 text-center font-vazirRegular'>
                         <h2 className='font-vazirBold text-white py-4'>موضوعات پر مخاطب</h2>
                         <div className='flex justify-center items-center flex-wrap'>
+
                             {popularPosts.map((post, index) => (
                                 post.length < 20 && <a key={index + 1} className='px-4 py-2 text-white rounded-full mx-1 my-1 cursor-default hover:text-gray-200' style={{ background: 'rgba(255,255,255,0.4)' }}>{post}</a>
                             ))}
+                            
                         </div>
                     </div>
                 </div>
