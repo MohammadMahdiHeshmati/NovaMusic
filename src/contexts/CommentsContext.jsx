@@ -13,6 +13,7 @@ function CommentsProvider({ children }) {
         }
         runCommentsApi()
     }, [])
+    
     return (
         <commentsContext.Provider value={{ comments, setComments }}>
             {children}
