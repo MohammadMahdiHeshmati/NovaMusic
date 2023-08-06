@@ -13,11 +13,13 @@ function MainArtists() {
                 </div>
                 <div className='w-full pt-6 pb-14'>
                     <ul className='font-vazirRegular text-gray-600 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 auto-rows-max grid-flow-row'>
+                        
                         {mainPosts.mainPosts.map((post) => (
                             <li key={post[0]}>
                                 <Link onClick={window.scrollTo({ top: 0, behavior: 'smooth' })} to={`/post/${post[0]}`} className='py-1 px-4 my-1 whitespace-nowrap overflow-hidden text-ellipsis block main-artist-before' href="#">{post[1].title}</Link>
                             </li>
                         ))}
+                        
                     </ul>
                 </div>
             </div>
