@@ -1,8 +1,9 @@
 import React from 'react'
 import { useRoutes } from 'react-router-dom'
-import Routes from './Routes'
+
 import MainPostsProvider from './contexts/MainPostsContext'
 import CommentsProvider from './contexts/CommentsContext'
+import Routes from './Routes'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { ToastContainer } from 'react-toastify';
