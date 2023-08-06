@@ -3,6 +3,7 @@ import { useRoutes } from 'react-router-dom'
 
 import MainPostsProvider from './contexts/MainPostsContext'
 import CommentsProvider from './contexts/CommentsContext'
+
 import Routes from './Routes'
 import Header from './components/Header'
 import Footer from './components/Footer'
