@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+
 import { mainPostsContext } from '../contexts/MainPostsContext'
 import { Link } from 'react-router-dom'
 
