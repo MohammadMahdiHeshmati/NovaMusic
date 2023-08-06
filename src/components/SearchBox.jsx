@@ -1,7 +1,6 @@
 import React from 'react'
 
 function SearchBox({ searchBoxShow, searchBoxHideFunc }) {
-
   return (
     <section className={`fixed z-50 inset-0 flex justify-center items-center transition-all duration-500 ${searchBoxShow ? "translate-y-0" : "-translate-y-full"}`}>
       <div className='absolute inset-0 z-[51] bg-black/30' onClick={searchBoxHideFunc}></div>
