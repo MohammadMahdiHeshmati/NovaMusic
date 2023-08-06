@@ -9,6 +9,7 @@ function MainTop() {
     useEffect(() => {
         let mainPopularPost = mainPosts.mainPosts.map((post) => post[1].type)
         let allPopularPost = [...new Set(mainPopularPost)]
+        
         setPopularPosts(allPopularPost)
     }, [mainPosts])
 
