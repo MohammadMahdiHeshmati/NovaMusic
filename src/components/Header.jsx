@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 function Header() {
     const [headerShow, setHeaderShow] = useState('');
     const [headerZero, setheaderZero] = useState('header-zero header-animation-show');
+    
     const [searchBoxShow, setSearchBoxShow] = useState(false);
     const [SidebarShow, setSidebarShow] = useState(false);
     const [scrollToTop, setScrollToTop] = useState(false);
